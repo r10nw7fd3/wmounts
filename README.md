@@ -4,7 +4,7 @@ Buggy fstab generator
 
 ## Usage
 
-You need to have `libblkid` installed
+You need to install `libblkid`
 
 ```console
 wmounts -h	# get help information
@@ -14,7 +14,7 @@ wmounts -n	# do not backup
 
 ## Build
 
-You will also need to have `libblkid-devel` or `libblkid-dev` installed
+You will also need to install `libblkid-devel` or `libblkid-dev`
 
 ```console
 ./build.sh
